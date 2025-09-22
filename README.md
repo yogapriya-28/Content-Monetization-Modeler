@@ -73,18 +73,4 @@ This project aims to provide a **predictive solution** through machine learning.
 
 ---
 
-## 🖥️ Streamlit App  
-To run the app locally:  
 
-```bash
-# Clone repo
-git clone https://github.com/your-username/content-monetization-modeler.git
-
-# Navigate to folder
-cd content-monetization-modeler
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run Streamlit app
-streamlit run app.py
