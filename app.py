@@ -20,8 +20,8 @@ with open("feature_order.pkl", "rb") as f:
 # -----------------------------
 # YouTube API & Fixer API
 # -----------------------------
-API_KEY = "AIzaSyD0_asE5flWxaOSsWj9RribHwsAqSgegfM"
-FIXER_API_KEY = "acb9e4d5aeb891f90c7954aae200448b"
+API_KEY = ""
+FIXER_API_KEY = ""
 FIXER_API_URL = f"https://data.fixer.io/api/latest?access_key={FIXER_API_KEY}&symbols=USD,INR,BRL,IDR,JPY"
 
 class categoryMap:
@@ -208,3 +208,4 @@ if output is not None:
         st.success("🚀 Your engagement is higher than average – this could boost ad revenue!")
     else:
         st.warning("📉 Engagement is below average – try increasing likes & comments.")
+
